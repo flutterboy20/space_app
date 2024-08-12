@@ -29,8 +29,10 @@ class MyHomePage extends StatelessWidget {
                     padding: EdgeInsets.all(32),
                     child: Column(
                       children: [
+                        // App Title
                         Text(
                           'Space App',
+                          // Title Text Styling
                           style: TextStyle(
                             fontSize: 44,
                             fontWeight: FontWeight.w900,
@@ -38,6 +40,7 @@ class MyHomePage extends StatelessWidget {
                           ),
                           textAlign: TextAlign.left,
                         ),
+                        // The DropDownButton(),
                         DropdownButton(
                           items: [
                             DropdownMenuItem(
@@ -76,6 +79,7 @@ class MyHomePage extends StatelessWidget {
                             space: 8,
                           ),
                         ),
+                        // Routing and Redirection
                         itemBuilder: (context, index) {
                           return InkWell(
                             onTap: () {
@@ -137,6 +141,7 @@ class MyHomePage extends StatelessWidget {
                                                     color: secondaryTextColor,
                                                   ),
                                                 ),
+                                                // The Arrow Icon
                                                 Icon(
                                                   Icons.arrow_forward,
                                                   color: secondaryTextColor,

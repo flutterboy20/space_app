@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+// This is the colouring Page
 
 Color primaryTextColor = Color(0xFF414C6B);
 Color secondaryTextColor = Color(0xFFE4979E);

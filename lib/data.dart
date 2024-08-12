@@ -1,3 +1,5 @@
+// Data Page
+// All of the data being used inside of the can be used here
 class PlanetInfo {
   final int position;
   final String name;
@@ -14,6 +16,16 @@ class PlanetInfo {
   });
 }
 
+// Lists of The Planets
+/*  
+Inside the last we have the data of the Planets 
+Such as:  
+Names, 
+iconImage, 
+description
+images
+
+*/
 List<PlanetInfo> planets = [
   PlanetInfo(1,
       name: 'Mercury',

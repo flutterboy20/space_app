@@ -12,18 +12,22 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      // App Title
       title: 'Flutter Universe',
+      // App theming
       theme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: BottomBar(),
+      // ROutes and Screens
       routes: {
         ExploreScreen.routeName: (ctx) => ExploreScreen(),
         ProfileScreen.routeName: (ctx) => ProfileScreen(),
         BottomBar.routeName: (ctx) => BottomBar(),
         MyHomePage.routeName: (ctx) => MyHomePage(),
       },
+      // This is used to remove the debug banner
       debugShowCheckedModeBanner: false,
     );
   }
